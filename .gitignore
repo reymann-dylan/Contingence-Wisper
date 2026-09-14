@@ -1,0 +1,40 @@
+# Environnements Virtuels
+.venv/
+venv/
+env/
+ENV/
+
+# Caches Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec.bak
+
+# PyInstaller / Build outputs
+build/
+dist/
+
+# Fichiers Temporaires d'exécution Whisper
+temp_audio.npy
+temp_result.json
+checkbox_tick.png
+Contingence_Wisper_Setup_v1.0.0.exe
+installer.iss
+silero_vad.onnx
+WhisperVoice.spec
+
+# Caches HuggingFace & Modèles locaux
+models/
+huggingface/
+.cache/
+
+# Fichiers de configuration utilisateur locaux
+config.json
+
+# IDEs & Éditeurs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+Thumbs.db
+desktop.ini
