@@ -70,7 +70,12 @@ ContingenceWisper/
 ```
 
 ---
+## Instalation (.exe)
 
+Pour windows !
+Télécharger l’installateur de l'app en v1.0.0 (a droit sur github) :
+
+---
 ## Installation & Lancement depuis les Sources
 
 ### 1. Prérequis
@@ -104,21 +109,6 @@ python app.py
 
 ---
 
-## Compilation en Exécutable Standalone (.exe)
-
-Pour produire le dossier binaire distribuable autonome (sans avoir besoin d'installer Python sur la machine finale) :
-
-```powershell
-.venv\Scripts\activate
-pyinstaller build.spec --clean -y
-```
-
-Le livrable final se trouve dans le dossier :
-`dist/CONTINGENCE_Wisper/`
-
-Il suffit de compresser ce répertoire en archive `.zip` pour le distribuer.
-
----
 
 ## Crédits & Propriété Intellectuelle
 
